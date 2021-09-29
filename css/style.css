@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(85, 85, 85);
+}
+
+.container{
+    height: 804px;
+    width: 804px;
+    border: 2px solid wheat;
+    margin: 2rem auto;
+
+}
+
+.box   {
+    border: 1px solid wheat;
+    border-radius: 5%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 18px;top: 30px;
+    animation-name: runningBox;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+/*@keyframes runningBox{
+    0%{left: 0;top: 0;}
+    25%{left: 600px;top: 0;}
+    50%{left:600px;top: 600px;}
+    75%{left: 0;top: 600px;}
+    100%{left: 0px;top: 0;}
+}*/
+
+
+@keyframes runningBox{
+    0%{left: 18px;top: 30px;}
+    10%{left: 20px;top: 33px;}
+    25%{left: 35px;top: 50px;}
+    35%{left: 25px;top: 46px;}
+    45%{left: 15px;top: 35px;}
+    55%{left: 10px;top: 29px;}
+    65%{left: 8px;top: 25px;}
+    75%{left: 10px;top: 21px;}
+    85%{left: 14px;top: 23px;}
+    95%{left: 17px;top: 28px;}
+    100%{left: 20px;top: 33px;}
+
+}

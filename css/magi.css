@@ -1,0 +1,75 @@
+body {
+    background-color: wheat;
+    background-size: 100%;
+   }
+
+
+.container{
+    height: 804px;
+    width: 804px;
+    border: 2px solid black;
+    margin: 2rem auto;
+    position: relative;
+}
+
+.m2gi img{
+ width: 100%;
+}
+
+.cloud {
+    position: absolute;
+    animation-name: cloud;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes cloud{
+    0%{left: 180px;top: 300px;}
+    10%{left: 200px;top: 303px;}
+    25%{left: 305px;top: 500px;}
+    35%{left: 205px;top: 460px;}
+    45%{left: 105px;top: 350px;}
+    55%{left: 230px;top: 290px;}
+    65%{left: 89px;top: 250px;}
+    75%{left: 600px;top: 201px;}
+    85%{left: 234px;top: 203px;}
+    95%{left: 437px;top: 208px;}
+    100%{left: 200px;top: 303px;}
+
+}
+
+.cloud img{
+    width: 20%;
+}
+
+
+
+.cloud2{
+    position: absolute;
+    right: 0px;top: 0px;
+    animation-name: cloud2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cloud2{
+    0%{left: 234px;top: 30px;}
+    10%{left: 543px;top: 33px;}
+    25%{left: 200px;top: 50px;}
+    35%{left: 543px;top: 46px;}
+    45%{left: 125px;top: 35px;}
+    55%{left: 430px;top: 29px;}
+    65%{left: 600px;top: 25px;}
+    75%{left: 320px;top: 21px;}
+    85%{left: 420px;top: 23px;}
+    95%{left: 230px;top: 28px;}
+    100%{left: 270px;top: 33px;}
+
+}
+
+
+.cloud2 img {
+    width: 20%;
+}
